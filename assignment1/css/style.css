@@ -5,20 +5,23 @@ body {
   background:#f2f2f2;
 
 }
-h1{
+.nav h1{
   display: inline;
   font-family:Abril Fatface;
   font-style: oblique;
-  color:#434343;
+  color:white;
 }
-
+.nav{
+  background-color: #444;
+}
 .nav ul {
+  display:inline-block;
   list-style: none;
   background-color: #444;
   text-align:center;
-  padding-left:400px;
+  padding-left:500px;
   margin: 0;
-}
+  }
 .nav li {
   font-family: 'Oswald', sans-serif;
   font-size: 12px;
@@ -74,13 +77,18 @@ padding-top:5px;
 }
 #service p{
 font-style:oblique;
-line-height: 3;
+line-height:1.5;
+}
+
+.Contain{
+  background-color: #F9F9F9;
+  width: 100%;
 }
 .main{
-
   margin-top: 40px;
   height: 500px;
   margin-bottom: 30px;
+  background-color: #F9F9F9;
 }
 .main h4{
   text-align: center;

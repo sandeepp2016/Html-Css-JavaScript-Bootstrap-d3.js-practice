@@ -5,20 +5,23 @@ body {
   background:#f2f2f2;
 
 }
-h1{
+.nav h1{
   display: inline;
   font-family:Abril Fatface;
   font-style: oblique;
-  color:#434343;
+  color:white;
 }
-
+.nav{
+  background-color: #444;
+}
 .nav ul {
+  display:inline-block;
   list-style: none;
   background-color: #444;
   text-align:center;
-  padding-left:400px;
+  padding-left:500px;
   margin: 0;
-}
+  }
 .nav li {
   font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
@@ -46,6 +49,7 @@ h1{
     height: 50px;
     line-height: 50px;
     font-size: 1.4em;
+    background-color:
   }
 
   .nav li {
@@ -76,7 +80,7 @@ padding-top:5px;
 }
 #service p{
 font-style:oblique;
-line-height: 3;
+line-height:1.5;
 }
 .main{
 
