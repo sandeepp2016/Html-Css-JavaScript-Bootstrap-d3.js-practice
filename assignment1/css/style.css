@@ -5,6 +5,7 @@ body {
   background:#f2f2f2;
 
 }
+/*navigation bar section*/
 .nav h1{
   display: inline;
   font-family:Abril Fatface;
@@ -15,7 +16,7 @@ body {
   background-color: #444;
 }
 .nav ul {
-  display:inline-block;
+  display:inline-block;   /* displaying list content with block on the same line*/
   list-style: none;
   background-color: #444;
   text-align:center;
@@ -55,6 +56,8 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
+/*end of navigation bar*/
+
 #service{
 height:120px;
 background-color:#ccc;
@@ -80,6 +83,7 @@ font-style:oblique;
 line-height:1.5;
 }
 
+/*main content section*/
 .Contain{
   background-color: #F9F9F9;
   width: 100%;
@@ -103,7 +107,9 @@ line-height:1.5;
   width: 300px;
   height:auto;
   border:1px solid black;
-}
+}  /*end of main section*/
+
+/*hero unit section*/
 .herounit{
    padding-top:30px;
    width:100%;
@@ -136,7 +142,8 @@ line-height:1.5;
   line-height: 20px;
   font-family:lato;
   font-size:20px;
-}
+}  /*end of hero unit*/
+
 #powerfull{
  width:100%;
  height:auto;
@@ -173,6 +180,13 @@ line-height:1.5;
   font-family:lato;
   font-size:17px;
 }
+
+/*footer section*/
+#footerb{
+  width: 100%;
+  height:120px;
+  background-color:#4B79A1;
+}
 #footer{
   width:100%;
   height:auto;
@@ -208,11 +222,7 @@ text-decoration: none;
   width:150px;
   height:100px;
 }
-#footerb{
-  width: 100%;
-  height:120px;
-  background-color:#4B79A1;
-}
+
 #links{
    width:100%;
    height:200px;
@@ -237,6 +247,7 @@ text-decoration: none;
 #links {
   color: white;
 }
+/*socail media links*/
 .socail{
   padding-top:30px;
   height:100px;
@@ -254,3 +265,4 @@ text-decoration: none;
   height:50px;
   width: 50px;
 }
+/*end of footer section*/
