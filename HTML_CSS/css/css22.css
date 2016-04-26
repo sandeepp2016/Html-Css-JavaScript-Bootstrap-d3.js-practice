@@ -1,0 +1,48 @@
+body{
+  width:600px;
+  font-family:sans-serif;
+  line-height: 29px;
+  font-size: 15px;
+}
+
+article img{
+  float:left;
+  margin-top:20px;
+
+}
+.adjust{
+  float:right;
+  width:300px;
+  <!--border: 1px solid #182848;-->
+
+}
+h2{
+  margin: 0px;
+}
+p{
+  font-size:18px;
+}
+
+a{
+  color:#182848;
+}
+article li{
+
+  list-style: none;
+  display: inline;
+ }
+article h2{
+  font-size:38px;
+  margin-top: 0px;
+}
+ul{
+  padding-left:0px;
+}
+ul a {
+   font-style: italic;
+   font-size: 14px;
+   padding-right:7px
+}
+ul a:after{
+  content:'\';
+}

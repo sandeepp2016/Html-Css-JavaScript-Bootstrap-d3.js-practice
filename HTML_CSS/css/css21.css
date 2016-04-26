@@ -1,0 +1,18 @@
+body{
+  margin:0;
+}
+
+.wrap{
+ width: 500px;
+ height:500px;
+ background:grey;
+ position: relative;
+ margin: auto;
+ }
+.box{
+background: #182848;
+width:350px;
+height:350px;
+position:absolute;;
+left: 20px;
+}

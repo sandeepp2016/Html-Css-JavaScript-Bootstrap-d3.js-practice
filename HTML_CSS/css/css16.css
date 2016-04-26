@@ -1,0 +1,24 @@
+
+.wrap{
+  width:80%;
+  margin:auto;
+  
+}
+.content{
+
+ background:#649173;
+ float:left;
+ width:70%;
+ height: 400px;
+}
+aside{
+    text-align: center;
+    background:#3f4c6b;
+    float:left;
+    height: 400px;
+
+ }
+aside ul{
+
+  padding-left:19px;
+}
