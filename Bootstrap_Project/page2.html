@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+    <link rel="stylesheet" href="includes/css/styles1.css">
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+
+		<nav class="navbar navbar-default navStyle">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">starPg</a>
+         </div>
+         <div class="collapse navbar-collapse" id="myNavbar">
+     	      <ul class="nav navbar-nav">
+     	        <li ><a href="page1.html">Home</a></li>
+     	        <li class="dropdown">
+     	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+     	          <ul class="dropdown-menu">
+     	            <li><a href="#">Service1</a></li>
+     	            <li><a href="#">Service2</a></li>
+     	            <li><a href="#">Service3</a></li>
+     	          </ul>
+     	        </li>
+     	      </ul>
+     	      <form class="navbar-form navbar-left" role="search">
+     					<input type="text" class="form-control" placeholder="Search Pg" id="searchInput">
+     					<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+     	      </form>
+     	      <ul class="nav navbar-nav navbar-right">
+     	        <li><a href="#">Partners</a></li>
+     					<li><a data-toggle="model" href="#myModal">Sign In</a>
+
+               </li>
+     					<li><a href="#">About Us</a></li>
+     					<li><a href="#">Contact Us</a></li>
+     	        <li class="dropdown">
+     	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>My Account<span class="caret"></span></a>
+     	          <ul class="dropdown-menu">
+     							<li>
+     								 <a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
+     						 </li>
+
+     							<li>
+     								<a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
+     						</li>
+     							 <li class="divider"></li>
+
+     							 <li>
+     								 <a href="#"><span class="glyphicon glyphicon-off"></span>Sign out</a>
+     							 </li>
+     					 </ul>
+     	        </li>
+     	      </ul>
+     </div>
+          <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+
+ <!-- Modal content-->
+                <div class="modal-content">
+                   <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                 </div>
+                 <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                 </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                 </div>
+               </div>
+          </div>
+         </div>
+   </div>
+   </nav>
+	<div class="header">
+	<div class="header-content">
+
+			<div class="header-content-inner">
+				   	<h2>Find Your Perfect Accommodation</h2>
+				   	<hr>
+			  </div>
+
+          <div class="container">
+						<div class="row">
+										<div class="col-sm-4">
+											<div class="thumb">
+ 											<a href="#" class="round"><i class="glyphicon glyphicon-globe i-size "></i></a>
+
+ 														<div class="thumb-cap">
+ 														 <h4>Get Accommodation Online</h4>
+ 													 </p>Have you got?</p>
+ 														</div>
+
+ 													</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="thumb">
+											  <a href="#" class="round"><i class="glyphicon glyphicon-thumbs-up i-size"></i></a>
+												     <div class="thumb-cap">
+														  <h4>Post Your Requirement</h4>
+														 </p>Are you Looking for PG?</p>
+													   </div>
+													  </div>
+										</div>
+										<div class="col-sm-4">
+											<div class="thumb">
+											 <a href="#" class="round"><i class="glyphicon glyphicon-home i-size"></i></a>
+
+												     <div class="thumb-cap">
+														  <h4>Are You offering Pg?</h4>
+														 </p>Call us</p>
+													   </div>
+
+													 </div>
+											 </div>
+										</div>
+								</div>       <!-- row ends-->
+					</div> <!-- end header content-->
+				</div>
+ <!-- end of header section-->
+
+<section id="mid-section">
+		 <div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h2 class="section-heading">Our Locations</h2>
+							<hr>
+							<br>
+					</div>
+				 </div>
+					<div>
+				 <div class="row">
+					 <div class="col-sm-4 text-center">
+								 <div  class="thumbnail">
+										<a href="#">
+										 <img class="img-rounded" src="img/hyd.jpg">
+										</a>
+							 </div>
+							 <div class="caption">
+								 <h5>Hyderabad</h5>
+							 </div>
+					</div>
+			 <div class="col-sm-4 text-center">
+							 <div  class="thumbnail">
+								<a href="#">
+								 <img class="img-rounded" src="img/pune.jpg">
+								</a>
+					 </div>
+					 <div class="caption">
+						 <h5>Pune</h5>
+					 </div>
+			</div>
+			<div class="col-sm-4 text-center">
+							 <div  class="thumbnail">
+								<a href="#">
+								 <img class="img-rounded" src="img/chennai.jpg">
+								</a>
+							</div>
+							<div class="caption">
+								<h5>Chennai</h5>
+							</div>
+				</div>
+		</div>  <!--row end-->
+
+		<div class="row">
+
+			<div class="col-sm-4  text-center">
+
+						<div  class="thumbnail">
+							 <a href="#">
+								 <img class="img-rounded" src="img/bang.jpg">
+							</a>
+					 </div>
+					 <div class="caption">
+						 <h5>Bangalore</h5>
+					 </div>
+		</div>
+			 <div class="col-sm-4 text-center">
+						 <div  class="thumbnail">
+								<a href="#">
+								 <img class="img-rounded" src="img/mysore.jpg">
+								</a>
+					 </div>
+					 <div class="caption">
+						 <h5>Mysore</h5>
+					 </div>
+			</div>
+	 <div class="col-sm-4 text-center">
+					 <div  class="thumbnail">
+						<a href="#">
+						 <img class="img-rounded" src="img/indore.jpg">
+						</a>
+			 </div>
+			 <div class="caption">
+				 <h5>Indore</h5>
+			 </div>
+	</div>
+</div>
+	 <div class="row">
+	 <div class="col-sm-4 text-center">
+					 <div  class="thumbnail">
+						<a href="#">
+						 <img class="img-rounded" src="img/noida.jpg">
+						</a>
+					</div>
+					<div class="caption">
+						<h5>Noida</h5>
+					</div>
+		</div>
+	 <div class="col-sm-4  text-center">
+
+				 <div  class="thumbnail">
+						<a href="#">
+							<img class="img-rounded" src="img/jaipur.jpg">
+					 </a>
+				</div>
+				<div class="caption">
+					<h5>Jaipur</h5>
+				</div>
+ </div>
+ <div class="col-sm-4  text-center">
+
+			 <div  class="thumbnail">
+					<a href="#">
+						<img class="img-rounded" src="img/kolkata.jpg">
+				 </a>
+			</div>
+			<div class="caption">
+				<h5>Kolkata</h5>
+			</div>
+</div>
+  </div> <!--row end-->
+</div>  <!--conatainer end-->
+
+ </section> <!--mid section end -->
+					 <section id="services">
+			         <div class="container">
+
+								 <div class="row">
+										 <div class="col-lg-12 text-center">
+												 <h2 class="section-heading">At Your Service</h2>
+												 <hr>
+										 </div>
+								 </div>
+			             <div class="row">
+			                 <div class="col-sm-3 text-center">
+			                     <div class="service-box">
+			                         <span class="glyphicon glyphicon-lock bouncy i-size i-color" data-wow-delay=".1s"></span>
+			                         <h3>Security</h3>
+			                         <p class="text-muted">With security becoming more and more important,we have invested time and money to provide security.</p>
+			                     </div>
+			                 </div>
+			                 <div class="col-sm-3 text-center">
+			                     <div class="service-box">
+			                        <span class="glyphicon glyphicon-thumbs-up bouncy i-size i-color" data-wow-delay=".1s"></span>
+			                         <h3>Food</h3>
+			                         <p class="text-muted">We provide qulity food.Various food option available as per the choice like veg,non-veg north,south</p>
+			                     </div>
+			                 </div>
+			                 <div class="col-sm-3 text-center">
+			                     <div class="service-box">
+			                         <span class="glyphicon glyphicon-star bouncy i-size i-color" data-wow-delay=".1s"></span>
+			                         <h3>Facilities</h3>
+			                         <p class="text-muted">We provide various facilities such as Jim,24X7 water supply,High speed internet,swimming pool,TV frigder and many more.</p>
+			                     </div>
+			                 </div>
+											 <div class="col-sm-3 text-center">
+			                     <div class="service-box">
+			                         <span class="glyphicon glyphicon-move bouncy i-size i-color" data-wow-delay=".1s"></span>
+			                         <h3>Reallocation</h3>
+			                         <p class="text-muted">Now reallocation has become simple.You can move easily at our various location.</p>
+			                     </div>
+			                 </div>
+			             </div>
+			         </div>
+			     </section> <!-- end services section-->
+
+
+     <section id="corporate" class="gap">
+						<div class="container ">  <!-- container for carousel-->
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<br>
+										<h3 class="section-heading">Corporate Pg</h3>
+										<hr>
+										<br>
+								</div>
+									<div class="col-sm-3 text-center">
+										<div class="img-box">
+											 <header>
+												 <a href="#">
+
+													 <img class="img-rounded" src="img/ch1.png">
+
+												 </a>
+											</header>
+								 </div>
+								 </div>
+								<div class="col-sm-3 text-center">
+									<div class="img-box">
+										<header>
+											<a href="#">
+
+												<img class="img-rounded" src="img/ch2.png">
+											</a>
+
+									 </header>
+							</div>
+								</div>
+								<div class="col-sm-3 text-center">
+									<div class="img-box">
+										<header >
+											<a href="#">
+
+												<img class="img-rounded" src="img/ch3.png">
+										 </a>
+									 </header>
+							</div>
+								</div>
+								 <div class="col-sm-3  text-center">
+									 <div class="img-box">
+											<header >
+												<a href="#">
+
+													<img class="img-rounded" src="img/ch4.png">
+											 </a>
+										 </header>
+								</div>
+								</div>
+							</div>  <!--row end-->
+		  </div>  <!--row ends-->
+	</div>  <!--container end-->
+</section>  <!-- end comment section-->
+
+
+		 <footer id ="footer-section">
+			      <div class="container">
+               <div class="row">
+                     <div class="col-sm-3 text-center">
+											 <div class="service-box">
+												  <h4>Company</h4>
+													 <ul class="ul-design">
+												        <li class="li-design"><a href="#">Careers</a></li>
+												        <li class="li-design"><a href="#">Tenancy Terms</a></li>
+												        <li class="li-design"><a href="#">Privacy Policy</a></li>
+												       <li class="li-design"><a href="#">Enquiry</a></li>
+													</ul>
+ 											</div>
+									 	 </div>
+									   <div class="col-sm-3 text-center">
+											  <div class="service-box">
+											   <h4>Explore</h4>
+
+													 <ul class="ul-design">
+												     <li class="li-design"><a href="#">Blog</a></li>
+												     <li class="li-design"><a href="#">Android App</a></li>
+												     <li class="li-design"><a href="#">ios App</a></li>
+												      <li class="li-design"><a href="#">Sitemap</a></li>
+											   </ul>
+											</div>
+									   </div>
+									   <div class="col-sm-3 text-center">
+											  <div class="service-box">
+											 	<h4>Quick Links</h4>
+													<ul class="ul-design">
+													   <li class="li-design"><a href="#">Pg Bangaloe</a></li>
+													   <li class="li-design"><a href="#">Pg Hydrabad</a></li>
+													  <li class="li-design"><a href="#">Pg Pune</a></li>
+													</ul>
+											 </div>
+										 </div>
+										 <div class="col-sm-3 text-center">
+											 <div class="service-box">
+											 <h4>Follow us</h4>
+											 <div class="text-center center-block">
+					              <a href="#"><i class="social-icon fa fa-facebook-square fa-2x social"></i></a>
+					             	<a href="#"><i class="social-icon fa fa-twitter-square fa-2x social"></i></a>
+						            <a href="#"><i class="social-icon fa fa-google-plus-square fa-2x social"></i></a>
+				              </div>
+											</div>
+										</div>
+              </div>
+			       </div>	<!--container end-->
+
+		 </footer>
+		 <script src="http://code.jquery.com/jquery.js"></script>
+		 <!-- If no online access, fallback to our hardcoded version of jQuery -->
+		 <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+		 <!-- Bootstrap JS -->
+		 <script src="bootstrap/js/bootstrap.min.js"></script>
+
+		 <!-- Custom JS -->
+		 <script src="includes/js/script.js"></script>
+		 </body>
+		 </html>
