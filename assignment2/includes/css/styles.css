@@ -1,0 +1,269 @@
+
+body {
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+h1 h2 h3 h4 h5 {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+   #searchInput{
+     width:180px;
+   }
+
+   /*customizing navbar*/
+
+.navbar-brand{
+  padding: 11px 15px;
+
+}
+/*customizing navbar*/
+.navStyle{
+  margin-bottom:0;
+  border: 0;
+}
+/*changing navbar default color*/
+
+.navStyle a{
+  text-transform:uppercase;
+  font-size:13px;
+
+
+}
+
+#tabbar a{
+  color: black;
+}
+/*header section*/
+.header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    background: url(../../img/room2.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 200px 15px;
+    text-align: center;
+}
+
+.header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+.header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
+.bgImg{
+  height:400px;
+}
+.thumb{
+ margin-top:40px;
+}
+.thumb-cap{
+  display: inline;
+  margin-top:50px;
+}
+
+/*   creating circular boundary   */
+.round {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border-color:black;
+    background-color:white;
+    padding:4px 3px;;
+}
+
+.round:hover{
+  background-color: #dec;
+
+}
+
+   .pgimg{
+     width:260px;
+     height:230px;
+     overflow: hidden;
+   }
+/*zoom in effect on image*/
+    .tabimg img{
+      -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+      transition: all 2s ease;
+      width:260px;
+      height:230px;
+    }
+    .tabimg img:hover{
+      width:280px;
+      height:260px;
+    }
+
+.gap{
+  margin-top:100px;
+}
+
+#services{
+ margin-top:40px;
+}
+
+#services p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+hr {
+    max-width: 80px;
+    border-color: #f05f40;
+    border-width: 3px;
+}
+/*sizing icons*/
+.i-size{
+    font-size:3em;
+
+}
+.i-color{
+  color: #f05f40;
+}
+.section-heading {
+    margin-top: 0;
+}
+
+.service-box {
+    margin: 40px auto 0;
+    max-width: 400px;
+}
+
+.img-box  {
+      overflow: hidden;
+      max-width:260px;
+      max-height:230px;
+      margin: 20px auto 0;
+}
+
+.img-box h5 {
+   position:absolute;
+   top:auto;
+   margin-left: 20px;
+   display:inline-block;
+   background:rgba(79,150,182,0.75);
+   line-height:1.5em;
+   width:100px;
+   height:25px;
+   padding:2px;
+   color: white;
+   border-radius:2px;
+ }
+ /* zoom in effect*/
+.img-box-zoom-in img  {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+  width:260px;
+  height:230px;
+
+}
+.img-box-zoom-in img:hover {
+  width:280px;
+  height:260px;
+}
+
+#mid-section{
+  margin-top:50px;
+}
+
+#corporate{
+  background:#f2f2f2;
+  min-height: 300px;
+  padding-bottom:10px;
+}
+/* styling carousel*/
+#myCarousel {
+  background:#3d72b4;
+  margin:-2px;
+  min-height:200px;
+}
+#myCarousel p {
+  padding-top:30px;
+  font-size: 16px;
+  font-style:oblique;
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  margin-left: -4px;
+  margin-top: 10px;
+  margin-right:10px;
+}
+
+#myCarousel.item{
+  width: auto;
+}
+.carousel-img{
+  margin-top:35px;
+  margin-left:20px;
+  padding:10px;
+  width:60px;
+  height:60px;
+  border-radius:30px;
+  background:white;
+  border:2px white;
+}
+
+/*footer section */
+#footer-section{
+  height:auto;
+  background-color:#434343;
+  color:white;
+}
+
+.ul-design{
+ padding-left:0;
+}
+.li-design{
+  list-style:none;
+  font-size:13px;
+  line-height:28px;
+}
+
+.socail-icon{
+  padding:10px;
+}
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+.navbar-toggle {
+  background-color: white;
+  border-color: transparent;
+}
+.navbar-header button span{
+  color: red;
+}
