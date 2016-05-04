@@ -1,0 +1,11 @@
+#box{
+  height:100px;
+  width: 100px;
+  left:100px
+  top:100px;
+  background:blue;
+  position:absolute;
+  border: 2px red;
+  display:block;
+
+}
